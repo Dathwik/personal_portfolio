@@ -34,16 +34,9 @@ export const projects = [
 export const experience = [
   {
     role: "Frontend Developer",
-    company: "Your Company",
-    period: "2024 – Present",
-    description: "Built and maintained responsive web applications. Collaborated with designers and backend engineers to ship product features.",
-    tech: ["React", "TypeScript", "Tailwind CSS"],
-  },
-  {
-    role: "Web Developer Intern",
-    company: "Another Company",
-    period: "2023 – 2024",
-    description: "Developed UI components and contributed to front-end architecture. Improved page load performance by 30%.",
-    tech: ["React", "JavaScript", "CSS3"],
+    company: "The Activated Shirt",
+    period: "2025 – Present",
+    description: "Designed and developed a full product landing page for a direct-to-consumer apparel brand. Built a multi-section React site featuring a hero, lookbook, features, and shop section. Deployed the site on AWS S3 with CloudFront for global CDN delivery and maintained the GitHub repository through iterative releases.",
+    tech: ["React", "Vite", "Tailwind CSS", "AWS S3", "CloudFront"],
   },
 ];
