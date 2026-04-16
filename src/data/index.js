@@ -1,7 +1,7 @@
 export const skills = [
-  { category: "Frontend", items: ["React", "JavaScript", "TypeScript", "HTML5", "CSS3", "Tailwind CSS"] },
-  { category: "Tools & Build", items: ["Git", "Vite", "Webpack", "npm", "ESLint", "Figma"] },
-  { category: "Backend & Cloud", items: ["Node.js", "REST APIs", "AWS Amplify", "AWS S3", "Firebase"] },
+  { category: "Frontend", items: ["React", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "React Router"] },
+  { category: "Backend & Database", items: ["Node.js", "Express.js", "Python", "Flask", "MongoDB", "PostgreSQL"] },
+  { category: "Tools & Cloud", items: ["Git", "Vite", "npm", "REST APIs", "AWS S3", "CloudFront"] },
 ];
 
 export const projects = [
