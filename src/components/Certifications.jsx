@@ -32,11 +32,11 @@ function FadeIn({ children, delay = 0 }) {
 
 export default function Certifications() {
   return (
-    <section id="certifications" className="py-28 border-t border-neutral-800/50">
+    <section id="certifications" className="py-28 border-t border-neutral-200">
       <div className="max-w-5xl mx-auto px-6">
         <FadeIn>
-          <p className="text-indigo-400 text-sm font-medium tracking-widest uppercase mb-3">Certifications</p>
-          <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight mb-14">
+          <p className="text-indigo-600 text-sm font-medium tracking-widest uppercase mb-3">Certifications</p>
+          <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 tracking-tight mb-14">
             Credentials
           </h2>
         </FadeIn>
@@ -48,15 +48,15 @@ export default function Certifications() {
                 href={cert.url}
                 target="_blank"
                 rel="noreferrer"
-                className="group flex items-start justify-between p-6 rounded-2xl border border-neutral-800 hover:border-neutral-700 bg-neutral-900/30 hover:bg-neutral-900/60 transition-all duration-300"
+                className="group flex items-start justify-between p-6 rounded-2xl border border-neutral-200 hover:border-neutral-300 bg-neutral-50/80 hover:bg-neutral-100 transition-all duration-300"
               >
                 <div>
-                  <p className="text-white font-medium group-hover:text-indigo-300 transition-colors mb-1">
+                  <p className="text-neutral-900 font-medium group-hover:text-indigo-600 transition-colors mb-1">
                     {cert.title}
                   </p>
-                  <p className="text-neutral-500 text-sm">{cert.issuer}</p>
+                  <p className="text-neutral-400 text-sm">{cert.issuer}</p>
                 </div>
-                <ExternalLink size={15} className="text-neutral-600 group-hover:text-indigo-400 transition-colors mt-1 shrink-0 ml-4" />
+                <ExternalLink size={15} className="text-neutral-300 group-hover:text-indigo-500 transition-colors mt-1 shrink-0 ml-4" />
               </a>
             </FadeIn>
           ))}

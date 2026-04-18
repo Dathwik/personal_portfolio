@@ -25,27 +25,27 @@ export default function Hero() {
       id="hero"
       className="min-h-screen flex flex-col justify-center items-start max-w-5xl mx-auto px-6 pt-16"
     >
-      <motion.p {...fadeUp(0.1)} className="text-indigo-400 text-sm font-medium tracking-widest uppercase mb-4">
+      <motion.p {...fadeUp(0.1)} className="text-indigo-600 text-sm font-medium tracking-widest uppercase mb-4">
         Hello, I&apos;m
       </motion.p>
 
       <motion.h1
         {...fadeUp(0.2)}
-        className="text-5xl sm:text-7xl font-semibold text-white leading-tight tracking-tight mb-4"
+        className="text-5xl sm:text-7xl font-semibold text-neutral-900 leading-tight tracking-tight mb-4"
       >
         Dathwik<br />Kollikonda
       </motion.h1>
 
       <motion.p
         {...fadeUp(0.3)}
-        className="text-xl sm:text-2xl text-neutral-400 font-light mb-6"
+        className="text-xl sm:text-2xl text-neutral-500 font-light mb-6"
       >
         Frontend &amp; Web Developer
       </motion.p>
 
       <motion.p
         {...fadeUp(0.4)}
-        className="text-neutral-500 max-w-lg text-base leading-relaxed mb-10"
+        className="text-neutral-400 max-w-lg text-base leading-relaxed mb-10"
       >
         I build clean, fast, and accessible web experiences. Focused on crafting
         interfaces that are both functional and a pleasure to use.
@@ -58,7 +58,7 @@ export default function Hero() {
             e.preventDefault();
             document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
           }}
-          className="px-5 py-2.5 bg-white text-neutral-950 text-sm font-medium rounded-full hover:bg-neutral-200 transition-colors"
+          className="px-5 py-2.5 bg-neutral-900 text-white text-sm font-medium rounded-full hover:bg-neutral-700 transition-colors"
         >
           Get in touch
         </a>
@@ -68,20 +68,20 @@ export default function Hero() {
             e.preventDefault();
             document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
           }}
-          className="px-5 py-2.5 border border-neutral-700 text-neutral-300 text-sm font-medium rounded-full hover:border-neutral-500 hover:text-white transition-colors"
+          className="px-5 py-2.5 border border-neutral-300 text-neutral-600 text-sm font-medium rounded-full hover:border-neutral-500 hover:text-neutral-900 transition-colors"
         >
           View work
         </a>
       </motion.div>
 
       <motion.div {...fadeUp(0.6)} className="flex items-center gap-5">
-        <a href="https://github.com/dathwik" target="_blank" rel="noreferrer" className="text-neutral-500 hover:text-white transition-colors">
+        <a href="https://github.com/dathwik" target="_blank" rel="noreferrer" className="text-neutral-400 hover:text-neutral-900 transition-colors">
           <GithubIcon />
         </a>
-        <a href="https://linkedin.com/in/dathwik" target="_blank" rel="noreferrer" className="text-neutral-500 hover:text-white transition-colors">
+        <a href="https://linkedin.com/in/dathwik" target="_blank" rel="noreferrer" className="text-neutral-400 hover:text-neutral-900 transition-colors">
           <LinkedinIcon />
         </a>
-        <a href="mailto:kdathwik2024@gmail.com" className="text-neutral-500 hover:text-white transition-colors">
+        <a href="mailto:kdathwik2024@gmail.com" className="text-neutral-400 hover:text-neutral-900 transition-colors">
           <Mail size={18} />
         </a>
       </motion.div>
@@ -90,7 +90,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.8 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-neutral-600 animate-bounce hidden md:block"
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-neutral-300 animate-bounce hidden md:block"
       >
         <ArrowDown size={16} />
       </motion.div>

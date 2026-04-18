@@ -19,11 +19,11 @@ function FadeIn({ children, delay = 0 }) {
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-28 border-t border-neutral-800/50">
+    <section id="experience" className="py-28 border-t border-neutral-200">
       <div className="max-w-5xl mx-auto px-6">
         <FadeIn>
-          <p className="text-indigo-400 text-sm font-medium tracking-widest uppercase mb-3">Experience</p>
-          <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight mb-14">
+          <p className="text-indigo-600 text-sm font-medium tracking-widest uppercase mb-3">Experience</p>
+          <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 tracking-tight mb-14">
             Where I&apos;ve worked
           </h2>
         </FadeIn>
@@ -31,17 +31,17 @@ export default function Experience() {
         <div className="space-y-0">
           {experience.map((item, i) => (
             <FadeIn key={i} delay={i * 0.1}>
-              <div className="grid md:grid-cols-[200px_1fr] gap-4 md:gap-10 py-8 border-b border-neutral-800/50 last:border-0">
+              <div className="grid md:grid-cols-[200px_1fr] gap-4 md:gap-10 py-8 border-b border-neutral-200 last:border-0">
                 <div>
-                  <p className="text-neutral-500 text-xs font-mono">{item.period}</p>
+                  <p className="text-neutral-400 text-xs font-mono">{item.period}</p>
                 </div>
                 <div>
-                  <h3 className="text-white font-medium text-lg">{item.role}</h3>
-                  <p className="text-indigo-400 text-sm mb-3">{item.company}</p>
-                  <p className="text-neutral-400 text-sm leading-relaxed mb-4">{item.description}</p>
+                  <h3 className="text-neutral-900 font-medium text-lg">{item.role}</h3>
+                  <p className="text-indigo-600 text-sm mb-3">{item.company}</p>
+                  <p className="text-neutral-500 text-sm leading-relaxed mb-4">{item.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {item.tech.map((t) => (
-                      <span key={t} className="text-xs px-2.5 py-1 rounded-full bg-neutral-800 text-neutral-400 border border-neutral-700/50">
+                      <span key={t} className="text-xs px-2.5 py-1 rounded-full bg-white text-neutral-600 border border-neutral-200">
                         {t}
                       </span>
                     ))}

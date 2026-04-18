@@ -37,20 +37,20 @@ const links = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-28 border-t border-neutral-800/50">
+    <section id="contact" className="py-28 border-t border-neutral-200">
       <div className="max-w-5xl mx-auto px-6">
         <FadeIn>
-          <p className="text-indigo-400 text-sm font-medium tracking-widest uppercase mb-3">Contact</p>
+          <p className="text-indigo-600 text-sm font-medium tracking-widest uppercase mb-3">Contact</p>
         </FadeIn>
 
         <FadeIn delay={0.1}>
-          <h2 className="text-3xl sm:text-5xl font-semibold text-white tracking-tight max-w-xl mb-6 leading-tight">
+          <h2 className="text-3xl sm:text-5xl font-semibold text-neutral-900 tracking-tight max-w-xl mb-6 leading-tight">
             Let&apos;s build something together.
           </h2>
         </FadeIn>
 
         <FadeIn delay={0.2}>
-          <p className="text-neutral-400 max-w-md leading-relaxed mb-12">
+          <p className="text-neutral-500 max-w-md leading-relaxed mb-12">
             I&apos;m currently open to new opportunities. Whether you have a project in
             mind, a question, or just want to connect — my inbox is always open.
           </p>
@@ -65,10 +65,10 @@ export default function Contact() {
                 rel="noreferrer"
                 className="flex items-center gap-4 group w-fit"
               >
-                <span className="w-9 h-9 flex items-center justify-center rounded-full border border-neutral-800 text-neutral-500 group-hover:border-neutral-600 group-hover:text-white transition-all">
+                <span className="w-9 h-9 flex items-center justify-center rounded-full border border-neutral-200 text-neutral-400 group-hover:border-neutral-400 group-hover:text-neutral-900 transition-all">
                   <Icon size={15} />
                 </span>
-                <span className="text-neutral-400 group-hover:text-white text-sm transition-colors">
+                <span className="text-neutral-500 group-hover:text-neutral-900 text-sm transition-colors">
                   {label}
                 </span>
               </a>

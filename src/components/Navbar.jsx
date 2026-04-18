@@ -25,13 +25,13 @@ export default function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-neutral-950/90 backdrop-blur-md border-b border-neutral-800/60" : ""
+        scrolled ? "bg-white/90 backdrop-blur-md border-b border-neutral-200" : ""
       }`}
     >
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="text-sm font-medium text-neutral-300 hover:text-white transition-colors tracking-wide"
+          className="text-sm font-medium text-neutral-700 hover:text-neutral-900 transition-colors tracking-wide"
         >
           DK
         </button>
@@ -42,7 +42,7 @@ export default function Navbar() {
             <li key={link}>
               <button
                 onClick={() => handleNav(link)}
-                className="text-sm text-neutral-400 hover:text-white transition-colors"
+                className="text-sm text-neutral-500 hover:text-neutral-900 transition-colors"
               >
                 {link}
               </button>
@@ -52,7 +52,7 @@ export default function Navbar() {
 
         {/* Mobile toggle */}
         <button
-          className="md:hidden text-neutral-400 hover:text-white transition-colors"
+          className="md:hidden text-neutral-500 hover:text-neutral-900 transition-colors"
           onClick={() => setOpen((v) => !v)}
           aria-label="Toggle menu"
         >
@@ -68,13 +68,13 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
             transition={{ duration: 0.2 }}
-            className="md:hidden bg-neutral-950/95 backdrop-blur-md border-b border-neutral-800/60 px-6 pb-6 pt-2"
+            className="md:hidden bg-white/95 backdrop-blur-md border-b border-neutral-200 px-6 pb-6 pt-2"
           >
             {links.map((link) => (
               <button
                 key={link}
                 onClick={() => handleNav(link)}
-                className="block w-full text-left py-3 text-neutral-400 hover:text-white transition-colors text-sm border-b border-neutral-800/40 last:border-0"
+                className="block w-full text-left py-3 text-neutral-500 hover:text-neutral-900 transition-colors text-sm border-b border-neutral-200 last:border-0"
               >
                 {link}
               </button>

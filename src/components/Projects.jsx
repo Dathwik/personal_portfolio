@@ -26,11 +26,11 @@ function FadeIn({ children, delay = 0 }) {
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-28 border-t border-neutral-800/50">
+    <section id="projects" className="py-28 border-t border-neutral-200">
       <div className="max-w-5xl mx-auto px-6">
         <FadeIn>
-          <p className="text-indigo-400 text-sm font-medium tracking-widest uppercase mb-3">Projects</p>
-          <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight mb-14">
+          <p className="text-indigo-600 text-sm font-medium tracking-widest uppercase mb-3">Projects</p>
+          <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 tracking-tight mb-14">
             Selected work
           </h2>
         </FadeIn>
@@ -38,33 +38,33 @@ export default function Projects() {
         <div className="grid md:grid-cols-2 gap-5">
           {projects.map((project, i) => (
             <FadeIn key={project.title} delay={i * 0.1}>
-              <div className="group h-full p-6 rounded-2xl border border-neutral-800 hover:border-neutral-700 bg-neutral-900/30 hover:bg-neutral-900/60 transition-all duration-300 flex flex-col">
+              <div className="group h-full p-6 rounded-2xl border border-neutral-200 hover:border-neutral-300 bg-neutral-50/80 hover:bg-neutral-100 transition-all duration-300 flex flex-col">
                 <div className="flex items-start justify-between mb-4">
-                  <span className="text-xs text-neutral-500 font-mono">{project.year}</span>
+                  <span className="text-xs text-neutral-400 font-mono">{project.year}</span>
                   <div className="flex items-center gap-3">
                     {project.github && (
-                      <a href={project.github} target="_blank" rel="noreferrer" className="text-neutral-500 hover:text-white transition-colors">
+                      <a href={project.github} target="_blank" rel="noreferrer" className="text-neutral-400 hover:text-neutral-900 transition-colors">
                         <GithubIcon />
                       </a>
                     )}
                     {project.live && (
-                      <a href={project.live} target="_blank" rel="noreferrer" className="text-neutral-500 hover:text-white transition-colors">
+                      <a href={project.live} target="_blank" rel="noreferrer" className="text-neutral-400 hover:text-neutral-900 transition-colors">
                         <ExternalLink size={15} />
                       </a>
                     )}
                   </div>
                 </div>
 
-                <h3 className="text-white font-medium text-lg mb-2 group-hover:text-indigo-300 transition-colors">
+                <h3 className="text-neutral-900 font-medium text-lg mb-2 group-hover:text-indigo-600 transition-colors">
                   {project.title}
                 </h3>
-                <p className="text-neutral-400 text-sm leading-relaxed flex-1 mb-5">
+                <p className="text-neutral-500 text-sm leading-relaxed flex-1 mb-5">
                   {project.description}
                 </p>
 
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((t) => (
-                    <span key={t} className="text-xs px-2.5 py-1 rounded-full bg-neutral-800 text-neutral-400 border border-neutral-700/50">
+                    <span key={t} className="text-xs px-2.5 py-1 rounded-full bg-white text-neutral-600 border border-neutral-200">
                       {t}
                     </span>
                   ))}

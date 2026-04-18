@@ -19,11 +19,11 @@ function FadeIn({ children, delay = 0 }) {
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-28 border-t border-neutral-800/50">
+    <section id="skills" className="py-28 border-t border-neutral-200">
       <div className="max-w-5xl mx-auto px-6">
         <FadeIn>
-          <p className="text-indigo-400 text-sm font-medium tracking-widest uppercase mb-3">Skills</p>
-          <h2 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight mb-14">
+          <p className="text-indigo-600 text-sm font-medium tracking-widest uppercase mb-3">Skills</p>
+          <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 tracking-tight mb-14">
             Technologies I work with
           </h2>
         </FadeIn>
@@ -32,14 +32,14 @@ export default function Skills() {
           {skills.map((group, gi) => (
             <FadeIn key={group.category} delay={gi * 0.1}>
               <div>
-                <p className="text-neutral-500 text-xs font-medium tracking-widest uppercase mb-4">
+                <p className="text-neutral-400 text-xs font-medium tracking-widest uppercase mb-4">
                   {group.category}
                 </p>
                 <ul className="space-y-2">
                   {group.items.map((item) => (
                     <li
                       key={item}
-                      className="text-neutral-300 text-sm py-2 px-3 rounded-lg border border-neutral-800 hover:border-neutral-700 hover:bg-neutral-900 transition-all"
+                      className="text-neutral-700 text-sm py-2 px-3 rounded-lg border border-neutral-200 hover:border-neutral-300 hover:bg-neutral-50 transition-all"
                     >
                       {item}
                     </li>
