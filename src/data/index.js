@@ -43,6 +43,7 @@ export const experience = [
   {
     role: "Frontend Developer",
     company: "The Activated Shirt",
+    url: "https://d32lrpxptukm6r.cloudfront.net",
     period: "2026 – Present",
     description: "Designed and developed a full product landing page for a direct-to-consumer apparel brand. Built a multi-section React site featuring a hero, lookbook, features, and shop section. Deployed the site on AWS S3 with CloudFront for global CDN delivery and maintained the GitHub repository through iterative releases.",
     tech: ["React", "Vite", "Tailwind CSS", "AWS S3", "CloudFront"],

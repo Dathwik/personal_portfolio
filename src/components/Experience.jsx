@@ -37,7 +37,11 @@ export default function Experience() {
                 </div>
                 <div>
                   <h3 className="text-neutral-900 font-medium text-lg">{item.role}</h3>
-                  <p className="text-indigo-600 text-sm mb-3">{item.company}</p>
+                  {item.url ? (
+                    <a href={item.url} target="_blank" rel="noreferrer" className="text-indigo-600 text-sm mb-3 hover:underline inline-block">{item.company}</a>
+                  ) : (
+                    <p className="text-indigo-600 text-sm mb-3">{item.company}</p>
+                  )}
                   <p className="text-neutral-500 text-sm leading-relaxed mb-4">{item.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {item.tech.map((t) => (
