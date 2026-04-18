@@ -10,6 +10,7 @@ export default defineConfig({
         manualChunks: (id) => {
           if (id.includes('framer-motion')) return 'framer-motion';
           if (id.includes('lucide-react')) return 'lucide-react';
+          if (id.includes('node_modules/react/') || id.includes('node_modules/react-dom/')) return 'react-vendor';
         },
       },
     },
