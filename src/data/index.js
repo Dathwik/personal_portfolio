@@ -11,7 +11,7 @@ export const projects = [
     tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     github: "https://github.com/Dathwik/mern-thinkboard",
     live: "https://mern-thinkboard-egmo.onrender.com/",
-    year: "2025",
+    year: "2026",
   },
   {
     title: "Contact Manager",
@@ -19,7 +19,7 @@ export const projects = [
     tech: ["React", "Python", "Flask", "PostgreSQL", "Vite"],
     github: "https://github.com/Dathwik/Python_JS_Flask",
     live: "https://python-js-flask.onrender.com",
-    year: "2025",
+    year: "2026",
   },
   {
     title: "Valorant Dashboard",
@@ -35,7 +35,7 @@ export const projects = [
     tech: ["React", "Vite", "Tailwind CSS", "Framer Motion", "AWS Amplify"],
     github: "https://github.com/Dathwik/personal_portfolio",
     live: "https://dathwik.com",
-    year: "2025",
+    year: "2026",
   },
 ];
 
@@ -43,7 +43,7 @@ export const experience = [
   {
     role: "Frontend Developer",
     company: "The Activated Shirt",
-    period: "2025 – Present",
+    period: "2026 – Present",
     description: "Designed and developed a full product landing page for a direct-to-consumer apparel brand. Built a multi-section React site featuring a hero, lookbook, features, and shop section. Deployed the site on AWS S3 with CloudFront for global CDN delivery and maintained the GitHub repository through iterative releases.",
     tech: ["React", "Vite", "Tailwind CSS", "AWS S3", "CloudFront"],
   },
