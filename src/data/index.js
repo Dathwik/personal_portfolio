@@ -22,12 +22,20 @@ export const projects = [
     year: "2025",
   },
   {
-    title: "Movie App",
-    description: "A React + Vite SPA that integrates with the TMDB API to browse popular movies, search titles, and save favorites persisted in localStorage. Deployed as a static frontend on Render.",
-    tech: ["React", "Vite", "React Router", "TMDB API"],
-    github: "https://github.com/Dathwik/movie_react",
-    live: "https://movie-react-88yi.onrender.com/",
-    year: "2024",
+    title: "Valorant Dashboard",
+    description: "An interactive match analytics dashboard that pulls competitive match data via the HenrikDev Valorant API. Displays K/D ratio, damage stats, rank badge, and performance trends using line and bar charts.",
+    tech: ["Python", "Streamlit", "Pandas", "Altair", "HenrikDev API"],
+    github: "https://github.com/Dathwik/Valorant_Dashboard",
+    live: null,
+    year: "2025",
+  },
+  {
+    title: "Personal Portfolio",
+    description: "This portfolio website — a single-page React app with smooth scroll animations, a responsive navbar, and sections for projects, skills, experience, and certifications. Deployed on AWS Amplify at dathwik.com.",
+    tech: ["React", "Vite", "Tailwind CSS", "Framer Motion", "AWS Amplify"],
+    github: "https://github.com/Dathwik/personal_portfolio",
+    live: "https://dathwik.com",
+    year: "2025",
   },
 ];
 
