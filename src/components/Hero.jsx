@@ -40,15 +40,16 @@ export default function Hero() {
         {...fadeUp(0.3)}
         className="text-xl sm:text-2xl text-neutral-500 font-light mb-6"
       >
-        Frontend &amp; Web Developer
+        Frontend, Web &amp; Software Developer
       </motion.p>
 
       <motion.p
         {...fadeUp(0.4)}
         className="text-neutral-400 max-w-lg text-base leading-relaxed mb-10"
       >
-        I build clean, fast, and accessible web experiences. Focused on crafting
-        interfaces that are both functional and a pleasure to use.
+        I build clean, fast, and accessible frontend and web experiences, and
+        develop robust software solutions. Focused on crafting interfaces and
+        systems that are both functional and a pleasure to use.
       </motion.p>
 
       <motion.div {...fadeUp(0.5)} className="flex items-center gap-4 mb-16">
