@@ -1,10 +1,39 @@
 export const skills = [
-  { category: "Frontend", items: ["React", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "React Router"] },
-  { category: "Backend & Database", items: ["Node.js", "Express.js", "Python", "Flask", "MongoDB", "PostgreSQL"] },
-  { category: "Tools & Cloud", items: ["Git", "Vite", "npm", "REST APIs", "AWS S3", "CloudFront"] },
+  {
+    category: "Frontend",
+    items: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "Framer Motion", "HTML5", "CSS3"],
+  },
+  {
+    category: "Backend & APIs",
+    items: ["Node.js", "Express.js", "Python", "Flask", "REST APIs", "Prisma ORM", "SQLAlchemy"],
+  },
+  {
+    category: "Databases & Cloud",
+    items: ["MongoDB", "PostgreSQL", "SQLite", "AWS Amplify", "AWS S3 / CloudFront", "Vercel", "Render"],
+  },
+  {
+    category: "Data & AI",
+    items: ["Pandas", "Scikit-learn", "Streamlit", "Jupyter Notebooks", "Anthropic Claude API"],
+  },
 ];
 
 export const projects = [
+  {
+    title: "UIGen — AI Component Generator",
+    description: "An AI-powered tool that generates live React components from plain-text descriptions using the Anthropic Claude API. Features a virtual file system, real-time preview, syntax-highlighted code editor, and user persistence via Prisma and SQLite.",
+    tech: ["Next.js", "TypeScript", "Anthropic Claude API", "Prisma", "Tailwind CSS"],
+    github: "https://github.com/Dathwik/uigen",
+    live: null,
+    year: "2026",
+  },
+  {
+    title: "Checkmate — Server Monitor",
+    description: "A self-hosted infrastructure monitoring tool with real-time dashboards for CPU, memory, disk, and Docker containers. Supports SSL/port checks, incident tracking, and multi-channel alerts (email, Discord, Slack, webhooks).",
+    tech: ["React", "TypeScript", "Node.js", "MongoDB", "Recharts", "Material-UI"],
+    github: "https://github.com/Dathwik/Checkmate",
+    live: null,
+    year: "2026",
+  },
   {
     title: "MERN ThinkBoard",
     description: "A full-stack note management app where users can create, edit, and delete notes. Built a REST API with Express and Node.js, integrated MongoDB for persistence, and deployed the full stack on Render.",

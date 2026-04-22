@@ -28,7 +28,7 @@ export default function Skills() {
           </h2>
         </FadeIn>
 
-        <div className="grid sm:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {skills.map((group, gi) => (
             <FadeIn key={group.category} delay={gi * 0.1}>
               <div>

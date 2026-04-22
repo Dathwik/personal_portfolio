@@ -27,22 +27,23 @@ export default function About() {
       <div className="grid md:grid-cols-2 gap-12 mt-2">
         <FadeIn delay={0.1}>
           <h2 className="text-3xl sm:text-4xl font-semibold text-neutral-900 leading-snug tracking-tight">
-            Passionate about building great web experiences.
+            Passionate about building great software and web experiences.
           </h2>
         </FadeIn>
 
         <FadeIn delay={0.2}>
           <div className="space-y-4 text-neutral-500 leading-relaxed">
             <p>
-              I&apos;m a frontend developer who cares deeply about the details — from
-              pixel-perfect layouts to smooth interactions that make an app feel
-              alive. I enjoy turning complex requirements into clean, maintainable
-              code.
+              I&apos;m a frontend, web, and software developer who cares deeply about
+              the details — from pixel-perfect layouts and smooth interactions to
+              well-structured backends and scalable systems. I enjoy turning complex
+              requirements into clean, maintainable code across the full stack.
             </p>
             <p>
-              When I&apos;m not writing code, I&apos;m exploring new tools, contributing to
-              open-source projects, or studying design systems to understand what
-              makes great interfaces work.
+              Beyond web development, I work with Python for data science and
+              machine learning, build AI-integrated tools using the Claude API, and
+              explore full-stack architectures with Node.js, Express, and modern
+              databases.
             </p>
             <p>
               Currently based in the US, open to remote and hybrid opportunities.
