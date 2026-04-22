@@ -46,7 +46,7 @@ export default function About() {
               databases.
             </p>
             <p>
-              Currently based in the US, open to remote and hybrid opportunities.
+              Currently based in the US, open to remote, hybrid, and in-office opportunities.
             </p>
           </div>
         </FadeIn>

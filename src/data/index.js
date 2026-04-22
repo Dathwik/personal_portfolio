@@ -27,14 +27,6 @@ export const projects = [
     year: "2026",
   },
   {
-    title: "Checkmate — Server Monitor",
-    description: "A self-hosted infrastructure monitoring tool with real-time dashboards for CPU, memory, disk, and Docker containers. Supports SSL/port checks, incident tracking, and multi-channel alerts (email, Discord, Slack, webhooks).",
-    tech: ["React", "TypeScript", "Node.js", "MongoDB", "Recharts", "Material-UI"],
-    github: "https://github.com/Dathwik/Checkmate",
-    live: null,
-    year: "2026",
-  },
-  {
     title: "MERN ThinkBoard",
     description: "A full-stack note management app where users can create, edit, and delete notes. Built a REST API with Express and Node.js, integrated MongoDB for persistence, and deployed the full stack on Render.",
     tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
